@@ -1,0 +1,15 @@
+{
+  "name": "statcheckloltrivia",
+  "version": "1.0.0",
+  "description": "An app that uses the Riot Games static API to get information on League of Legends in-game stats (e.g. minion health scaling, Illaoi's attack damage per level, health and armor of mid tower) and does stuff with it. Not sure if I want this to be a trivia game, a damage simulator, or what...honestly, at the moment this is just setting up a base for later.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/rah9699/LeagueOfTriviaApp.git)"
+  },
+  "author": "Reina Adeline Helms <reinahelms@gmail.com>",
+  "license": "ISC"
+}

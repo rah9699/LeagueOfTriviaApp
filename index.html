@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <!--Linked Stylesheets-->
+
+        <!--Linked Scripts-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!--JQuery ajax-->
+        <script src="index.js"></script>
+        
+        <title>League of Trivia: Sandbox test 1</title>
+    </head>
+    <body>
+        <!--Wrapper; used for cleaner appearance
+        TODO: get Bootstrap on this to make it cleaner-->
+        <div id="wrapper">
+            <header>
+                <div id="header">League of Trivia: Sandbox Test 1</div>
+            </header>
+        
+            <div id="content">
+                <h2>Enter champion</h2>
+                <input id="testSearchInput" type="text" size="25" maxlength="32" />
+                <button type="button" id="testSearchLaunch">Find Stuff About</button>
+                <div id="resultBar">
+                    Results
+                </div>
+            </div>
+            
+            <footer>
+				<div id="footer">
+	               Reina Helms, Copyright 2017.
+                </div>
+			</footer>
+        </div>
+<!--
+Plans: 
+* Look through the Dota 2 and Smite APIs. Attempt to get at least one of them functioning in the Sandbox. If I can't, scour for a third-party resource.
+        
+Hmm. The scripting API requires Lua, and frankly I'm not sure if it works outside of Dota 2 proper. Smite API seems...out of reach. 
+
+Alright: plan B seems to be "compare your Dota and League games," since that sounds like a feasible use of the Dota API.
+
+I can try to use "ancient magicks" to grab stuff from the game directly, but I don't think I have time--and plan B sounds more feasible (but significantly less cool...alright, it's still cool, but I'm miffed that my original plan doesn't sound like it will work.)
+
+I could also combine this with some sort of server that holds data to make suggestions based on what people tend to play? (reliability of said server depends on whether players can log in from both games.)
+
+
+
+
+
+
+
+-->
+        
+    </body>
+</html>
